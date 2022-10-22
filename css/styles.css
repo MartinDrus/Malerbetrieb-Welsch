@@ -9,9 +9,19 @@
 main {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #carousel-container {
-    width: 60%;
-    height: 60%;
+    margin-top: 3em;
+    width: 40vw;
 }
+
+.tests {
+    margin-top: 3em;
+    width: 80vw;
+    height: 30vh;
+
+    border: solid;
+}
+
